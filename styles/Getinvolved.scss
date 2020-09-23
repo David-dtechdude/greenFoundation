@@ -27,7 +27,7 @@ body * + * {
 }
 
 .siteheader {
-	background-image: url(/images/anna-earl-eDg4XZMczzg-unsplash.jpg);
+	background-image: url(/greenFoundation/images/anna-earl-eDg4XZMczzg-unsplash.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 575px;
@@ -41,7 +41,7 @@ body * + * {
 		// color: aquamarine;
 		.siteheader__nav {
 			.siteheader__logo {
-				// color: white;
+				color: white;
 			}
 			display: flex;
 			justify-content: space-between;
