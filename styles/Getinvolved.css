@@ -1,0 +1,258 @@
+:root {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #273655;
+}
+
+body * + * {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.siteheader {
+  background-image: url(/images/anna-earl-eDg4XZMczzg-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 575px;
+}
+
+.siteheader .container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1110px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.siteheader .container .siteheader__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.siteheader .container .siteheader__nav .siteheader__navlinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.siteheader .container .siteheader__nav .siteheader__navlinks .siteheader__navlink {
+  list-style: none;
+  margin-left: 25px;
+  color: white;
+}
+
+.siteheader .container .siteheader__nav .siteheader__navlinks .siteheader__navlink a {
+  text-decoration: none;
+  color: white;
+}
+
+.siteheader .resources__container {
+  text-align: center;
+  margin-left: 800px;
+  margin-top: 120px;
+}
+
+.siteheader .resources__container .resources__button {
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 15px 20px;
+  background-color: #01e08f;
+  color: #273655;
+  border-radius: 8px;
+}
+
+.card {
+  position: absolute;
+  z-index: 10px;
+  top: 420px;
+  left: 130px;
+}
+
+.card__container {
+  padding: 20px;
+  background-color: #f3f6fa;
+  border-radius: 8px;
+  width: 470px;
+  height: 496px;
+}
+
+.card__container .card__icons {
+  margin-left: 20px;
+  margin-bottom: 35px;
+}
+
+.card__container .card__Email {
+  width: 396px;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid #273655;
+  border-radius: 8px;
+  margin-bottom: 35px;
+}
+
+.card__container .card__number {
+  width: 396px;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid #273655;
+  border-radius: 8px;
+  margin-bottom: 35px;
+}
+
+.card__container .card__month {
+  width: 58px;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid #273655;
+  border-radius: 8px;
+}
+
+.card__container .card__cvc {
+  width: 58px;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid #273655;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.card__container .card__button {
+  background-color: #273655;
+  color: white;
+  margin-left: 177px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.participate {
+  margin-top: 500px;
+}
+
+.participate .participate__header {
+  text-align: center;
+}
+
+.participate .participate__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.participate .participate__flex .participate__block {
+  background-color: #f3f6fa;
+  padding: 20px;
+  text-align: left;
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+
+.participate .participate__flex .participate__block .participate__paragraph {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 500px;
+  background-color: #273655;
+  color: #01e08f;
+}
+
+.footer__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer__container h1,
+.footer__container p {
+  text-align: center;
+}
+
+.footer__container p {
+  margin-bottom: 20px;
+}
+
+.footer__container .footer__Notification {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.footer__container .footer__Notification .footer__Notificationinput {
+  padding: 5px;
+  border: 1px solid #01e08f;
+  border-radius: 4px;
+  background: transparent;
+  width: 350px;
+  height: 40px;
+}
+
+.footer__container .footer__Notification ::-webkit-input-placeholder {
+  color: #d3d0d0;
+}
+
+.footer__container .footer__Notification :-ms-input-placeholder {
+  color: #d3d0d0;
+}
+
+.footer__container .footer__Notification ::-ms-input-placeholder {
+  color: #d3d0d0;
+}
+
+.footer__container .footer__Notification ::placeholder {
+  color: #d3d0d0;
+}
+
+.footer__container .footer__Notification .footer__Notificationbutton {
+  padding: 5px;
+  background: #01e08f;
+  color: #273655;
+  border-radius: 4px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer ul {
+  color: #01e08f;
+}
+
+.footer li {
+  list-style: none;
+  padding: 12px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=Getinvolved.css.map */
