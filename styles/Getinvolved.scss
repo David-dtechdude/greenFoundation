@@ -1,4 +1,7 @@
 @import "./variables";
+@import "./footer";
+@import "./utilities";
+
 :root {
 	box-sizing: border-box;
 }
@@ -32,20 +35,12 @@ body * + * {
 	background-repeat: no-repeat;
 	height: 575px;
 	.container {
-		margin-right: auto;
-		margin-left: auto;
-		width: 1110px;
-		padding-right: 10px;
-		padding-left: 10px;
-		// color: white;
-		// color: aquamarine;
 		.siteheader__nav {
 			.siteheader__logo {
 				color: white;
 			}
 			display: flex;
 			justify-content: space-between;
-			// color: white;
 			.siteheader__navlinks {
 				display: flex;
 				.siteheader__navlink {
@@ -61,20 +56,9 @@ body * + * {
 		}
 	}
 	.resources__container {
-		// width: 355px;
-		// height: 234px;
 		text-align: center;
 		margin-left: 800px;
 		margin-top: 120px;
-		// color: white;
-		.resources__button {
-			font-size: 16px;
-			margin-top: 20px;
-			padding: 15px 20px;
-			background-color: $sometextcolor;
-			color: $bodycolor;
-			border-radius: 8px;
-		}
 	}
 }
 

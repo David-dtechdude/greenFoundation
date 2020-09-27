@@ -1,4 +1,7 @@
 @import "./variables";
+@import "./footer";
+@import "./utilities";
+@import "./resources";
 
 :root {
 	box-sizing: border-box;
@@ -28,28 +31,21 @@ body {
 	width: auto;
 	height: 389px;
 
-	.container {
-		margin-right: auto;
-		margin-left: auto;
-		width: 1110px;
-		padding-right: 10px;
-		padding-left: 10px;
-		color: white;
-		// color: aquamarine;
+	.siteheader__nav > a,
+	li a {
+		color: rgb(0, 0, 0);
+	}
 
+	.container {
+		width: 60%;
 		.siteheader__nav {
 			display: flex;
 			justify-content: space-between;
-
 			.siteheader__navlinks {
 				display: flex;
-				color: white;
-
 				.siteheader__navlink {
 					list-style: none;
 					margin-left: 25px;
-					color: white;
-
 					a {
 						text-decoration: none;
 					}
@@ -59,9 +55,9 @@ body {
 	}
 }
 
-.resources__container,
+.resources__header > h1,
 .resources__span {
-	color: white;
+	color: rgb(0, 0, 0);
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -104,15 +100,6 @@ body {
 			}
 		}
 	}
-
-	// careers__image {
-	// 	width: 540px;
-	// 	height: 472px;
-	// 	border-radius: 8px;
-	// }
-
-	// careers__blocktext {
-	// }
 }
 
 .careers__container {
@@ -136,69 +123,5 @@ body {
 			margin-bottom: 20px;
 			border-radius: 8px;
 		}
-	}
-}
-
-footer {
-	background-color: $bodycolor;
-	color: $sometextcolor;
-	margin-top: 150px;
-}
-
-.footer__container {
-	width: 1200px;
-	margin: 0 auto;
-
-	h1,
-	p {
-		text-align: center;
-	}
-
-	p {
-		margin-bottom: 20px;
-	}
-
-	.footer__Notification {
-		margin: 0 auto;
-		width: 70%;
-
-		.footer__Notificationinput {
-			padding: 5px;
-			border: 1px solid #01e08f;
-			border-radius: 4px;
-			background: transparent;
-			width: 350px;
-			height: 40px;
-		}
-		::placeholder {
-			color: rgb(211, 208, 208);
-		}
-
-		.footer__Notificationbutton {
-			padding: 5px;
-			background: $sometextcolor;
-			color: $bodycolor;
-			border-radius: 4px;
-		}
-	}
-}
-.footer {
-	display: flex;
-	// background-color: $bodycolor;
-	// color: $sometextcolor;
-	justify-content: space-between;
-
-	.footer__icon {
-		width: 20px;
-		height: 20px;
-	}
-
-	ul {
-		color: #01e08f;
-	}
-	li {
-		list-style: none;
-		padding: 12px;
-		font-size: 16px;
 	}
 }

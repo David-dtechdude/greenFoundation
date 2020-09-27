@@ -1,3 +1,116 @@
+.container {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.Margintop {
+  margin-top: 100px;
+}
+
+.marginleft {
+  margin-left: 50px;
+}
+
+footer {
+  background-color: #273655;
+  color: #01e08f;
+}
+
+footer .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer .footer__header,
+footer .footer .footer__caption {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer .footer .footer__Notification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer .footer__Notification .footer__Notificationinput {
+  padding: 5px;
+  border: 1px solid #01e08f;
+  border-radius: 4px;
+  background: transparent;
+  width: 350px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+footer .footer .footer__Notification ::-webkit-input-placeholder {
+  color: #d3d0d0;
+}
+
+footer .footer .footer__Notification :-ms-input-placeholder {
+  color: #d3d0d0;
+}
+
+footer .footer .footer__Notification ::-ms-input-placeholder {
+  color: #d3d0d0;
+}
+
+footer .footer .footer__Notification ::placeholder {
+  color: #d3d0d0;
+}
+
+footer .footer .footer__Notification .footer__Notificationbutton {
+  padding: 5px;
+  background: #01e08f;
+  color: #273655;
+  border-radius: 4px;
+  margin-left: 40px;
+}
+
+footer .footer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer2 .footer__icon {
+  width: 20px;
+  height: 20px;
+}
+
+footer .footer2 ul {
+  color: #01e08f;
+}
+
+footer .footer2 li {
+  list-style: none;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.Margintop {
+  margin-top: 100px;
+}
+
+.marginleft {
+  margin-left: 50px;
+}
+
 :root {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -37,14 +150,6 @@ body * + * {
   height: 575px;
 }
 
-.siteheader .container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 1110px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
 .siteheader .container .siteheader__nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,15 +184,6 @@ body * + * {
   text-align: center;
   margin-left: 800px;
   margin-top: 120px;
-}
-
-.siteheader .resources__container .resources__button {
-  font-size: 16px;
-  margin-top: 20px;
-  padding: 15px 20px;
-  background-color: #01e08f;
-  color: #273655;
-  border-radius: 8px;
 }
 
 .card {

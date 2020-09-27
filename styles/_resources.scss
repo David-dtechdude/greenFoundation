@@ -1,0 +1,61 @@
+// global style
+.resources > header,
+input,
+p {
+	color: white;
+}
+
+.resources {
+	.resources__header {
+		margin-bottom: 20px;
+		margin-top: 75px;
+		text-align: center;
+	}
+	.resources__span {
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	.resources__input {
+		border: 1px solid rgb(255, 255, 255);
+		border-radius: 4px;
+		background: transparent;
+		width: 640px;
+		height: 50px;
+		padding: 5px;
+		margin-bottom: 15px;
+		margin-left: 190px;
+	}
+	::placeholder {
+		color: rgb(255, 255, 255);
+	}
+	.buttons {
+		display: flex;
+		margin-left: 370px;
+	}
+	.resources__caption {
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+	.resources__button1 {
+		border: 1px solid black;
+		border-radius: 4px;
+		padding: 5px;
+		background: transparent;
+		margin-left: 15px;
+	}
+	.resources__button2 {
+		border: 1px solid black;
+		border-radius: 4px;
+		padding: 5px;
+		background: transparent;
+		margin-left: 15px;
+	}
+	.resources__button3 {
+		border: 1px solid black;
+		border-radius: 4px;
+		padding: 5px;
+		background: transparent;
+		margin-left: 15px;
+	}
+}

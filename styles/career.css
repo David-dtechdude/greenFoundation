@@ -1,3 +1,196 @@
+.container {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.Margintop {
+  margin-top: 100px;
+}
+
+.marginleft {
+  margin-left: 50px;
+}
+
+footer {
+  background-color: #273655;
+  color: #01e08f;
+}
+
+footer .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer .footer__header,
+footer .footer .footer__caption {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer .footer .footer__Notification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer .footer__Notification .footer__Notificationinput {
+  padding: 5px;
+  border: 1px solid #01e08f;
+  border-radius: 4px;
+  background: transparent;
+  width: 350px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+footer .footer .footer__Notification ::-webkit-input-placeholder {
+  color: #d3d0d0;
+}
+
+footer .footer .footer__Notification :-ms-input-placeholder {
+  color: #d3d0d0;
+}
+
+footer .footer .footer__Notification ::-ms-input-placeholder {
+  color: #d3d0d0;
+}
+
+footer .footer .footer__Notification ::placeholder {
+  color: #d3d0d0;
+}
+
+footer .footer .footer__Notification .footer__Notificationbutton {
+  padding: 5px;
+  background: #01e08f;
+  color: #273655;
+  border-radius: 4px;
+  margin-left: 40px;
+}
+
+footer .footer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer2 .footer__icon {
+  width: 20px;
+  height: 20px;
+}
+
+footer .footer2 ul {
+  color: #01e08f;
+}
+
+footer .footer2 li {
+  list-style: none;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.Margintop {
+  margin-top: 100px;
+}
+
+.marginleft {
+  margin-left: 50px;
+}
+
+.resources > header,
+input,
+p {
+  color: white;
+}
+
+.resources .resources__header {
+  margin-bottom: 20px;
+  margin-top: 75px;
+  text-align: center;
+}
+
+.resources .resources__span {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.resources .resources__input {
+  border: 1px solid white;
+  border-radius: 4px;
+  background: transparent;
+  width: 640px;
+  height: 50px;
+  padding: 5px;
+  margin-bottom: 15px;
+  margin-left: 190px;
+}
+
+.resources ::-webkit-input-placeholder {
+  color: white;
+}
+
+.resources :-ms-input-placeholder {
+  color: white;
+}
+
+.resources ::-ms-input-placeholder {
+  color: white;
+}
+
+.resources ::placeholder {
+  color: white;
+}
+
+.resources .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 370px;
+}
+
+.resources .resources__caption {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.resources .resources__button1 {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  background: transparent;
+  margin-left: 15px;
+}
+
+.resources .resources__button2 {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  background: transparent;
+  margin-left: 15px;
+}
+
+.resources .resources__button3 {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  background: transparent;
+  margin-left: 15px;
+}
+
 :root {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -29,13 +222,13 @@ body {
   height: 389px;
 }
 
+.News__siteheader .siteheader__nav > a,
+.News__siteheader li a {
+  color: black;
+}
+
 .News__siteheader .container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 1110px;
-  padding-right: 10px;
-  padding-left: 10px;
-  color: white;
+  width: 60%;
 }
 
 .News__siteheader .container .siteheader__nav {
@@ -51,22 +244,20 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: white;
 }
 
 .News__siteheader .container .siteheader__nav .siteheader__navlinks .siteheader__navlink {
   list-style: none;
   margin-left: 25px;
-  color: white;
 }
 
 .News__siteheader .container .siteheader__nav .siteheader__navlinks .siteheader__navlink a {
   text-decoration: none;
 }
 
-.resources__container,
+.resources__header > h1,
 .resources__span {
-  color: white;
+  color: black;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -135,86 +326,5 @@ body {
   margin-right: 63px;
   margin-bottom: 20px;
   border-radius: 8px;
-}
-
-footer {
-  background-color: #273655;
-  color: #01e08f;
-  margin-top: 150px;
-}
-
-.footer__container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.footer__container h1,
-.footer__container p {
-  text-align: center;
-}
-
-.footer__container p {
-  margin-bottom: 20px;
-}
-
-.footer__container .footer__Notification {
-  margin: 0 auto;
-  width: 70%;
-}
-
-.footer__container .footer__Notification .footer__Notificationinput {
-  padding: 5px;
-  border: 1px solid #01e08f;
-  border-radius: 4px;
-  background: transparent;
-  width: 350px;
-  height: 40px;
-}
-
-.footer__container .footer__Notification ::-webkit-input-placeholder {
-  color: #d3d0d0;
-}
-
-.footer__container .footer__Notification :-ms-input-placeholder {
-  color: #d3d0d0;
-}
-
-.footer__container .footer__Notification ::-ms-input-placeholder {
-  color: #d3d0d0;
-}
-
-.footer__container .footer__Notification ::placeholder {
-  color: #d3d0d0;
-}
-
-.footer__container .footer__Notification .footer__Notificationbutton {
-  padding: 5px;
-  background: #01e08f;
-  color: #273655;
-  border-radius: 4px;
-}
-
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.footer .footer__icon {
-  width: 20px;
-  height: 20px;
-}
-
-.footer ul {
-  color: #01e08f;
-}
-
-.footer li {
-  list-style: none;
-  padding: 12px;
-  font-size: 16px;
 }
 /*# sourceMappingURL=career.css.map */
